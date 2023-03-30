@@ -1,0 +1,190 @@
+.ReadMore {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.hm-cntnr {
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 50px;
+  padding: 5px 10px 5px 5px;
+  background-color: rgb(205, 245, 232);
+}
+.welcome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: rgb(226, 239, 198);
+}
+.welcomeText {
+  margin: 0;
+}
+.formWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.searchBar > input[type="search"] {
+  border: 1px solid black;
+  padding: 5px 5px 5px 40px;
+  font-size: 20px;
+  background-color: white;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 13px center;
+}
+.nosubmit,
+.nosubmit input,
+.nosubmit button {
+  height: 100%;
+  width: auto;
+  font-size: 25px;
+}
+#newblog {
+  height: 100%;
+  background-color: orange;
+  border-color: orange;
+  border-radius: 1px;
+}
+
+.nosubmit input {
+  margin-left: 600px;
+}
+.btn-cntnr,
+.btn-cntnr button {
+  height: 100%;
+  width: auto;
+  font-size: 26px;
+}
+.btn-cntnr button {
+  background-color: rgb(107, 121, 224);
+  border-color: rgb(107, 121, 224);
+  border-radius: 1px;
+}
+.sb-nv-cntnr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  height: 55px;
+  padding: 8px 10px 10px 120px;
+  margin-bottom: -20px;
+  background-color: rgb(226, 239, 198);
+}
+.blogs,
+.blogs button {
+  font-size: 25px;
+  width: auto;
+  height: 117.5%;
+  margin-right: 20px;
+  background-color: rgb(186, 192, 242);
+  border-color: rgb(186, 192, 242);
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+.blogs:focus {
+  background-color: rgb(179, 116, 239);
+}
+.srch-btn input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.srch-box {
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.my-post {
+  border: solid 1px;
+}
+.modal {
+  margin: 2rem;
+}
+.myModal {
+  border: solid 2px;
+  margin: 1.17rem 3rem 3rem;
+  background-color: rgb(244, 241, 241);
+}
+.modalContainer {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-cntnr {
+  background-color: rgb(240, 224, 205);
+  padding-bottom: 5px;
+}
+.container {
+  border: 1px solid black;
+  border-radius: 2rem;
+  width: 40%;
+  min-height: 350px;
+  padding: 30px 50px 50px;
+  height: max-content;
+  background-color: #f9f5db;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.header h1 {
+  margin: 0;
+}
+.formdata {
+  padding: 10px;
+}
+.formdata form label {
+  width: 100%;
+}
+.formdata form input {
+  width: 100%;
+}
+.formdata form textarea {
+  width: 100%;
+}
+Icon .icon {
+  width: 20%;
+  height: 40%;
+}
+Icon .editCrs {
+  margin-left: 20px;
+}
+.cross-container {
+  width: 100%;
+  text-align: right;
+}
+.cross-container svg {
+  height: 40px;
+  width: 40px;
+}
+.btns {
+  margin-left: 1rem;
+}
+.btns button {
+  padding: 10px;
+  margin-right: 1rem;
+}
+
+.crcl-crss {
+  position: absolute;
+  margin-top: -10rem;
+  margin-left: 80rem;
+  width: 5%;
+  height: 5%;
+}
+.crcl-crss Icon {
+  width: 100%;
+  height: 40%;
+}
+.icn-design {
+  display: flex;
+  justify-content: right;
+}
